@@ -25,15 +25,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "10.0"
   s.source       = { :git => "https://github.com/facephi/phingers-widget-framework.git", :tag => "#{s.version}" }
 
-  s.vendored_frameworks = 'Frameworks/*.framework'
-  s.frameworks          = 'CoreMedia','AVFoundation','AssetsLibrary'
-
-  s.dependency 'OpenCV', '3.4.5'
-  s.dependency 'TensorFlowLiteObjC'      
-
-  s.resource_bundles = {
-    'PhingersCamera' => ['Assets/*.*']
-  }
+  s.vendored_frameworks = 'Frameworks/*.xcframework'
 
   s.requires_arc      = true
   s.static_framework  = true
