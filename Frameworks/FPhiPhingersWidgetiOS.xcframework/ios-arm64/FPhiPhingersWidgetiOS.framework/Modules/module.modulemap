@@ -1,0 +1,6 @@
+framework module FPhiPhingersWidgetiOS {
+  umbrella header "FPhiPhingersWidgetiOS.h"
+
+  export *
+  module * { export * }
+}
