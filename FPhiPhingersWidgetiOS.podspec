@@ -25,8 +25,6 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "10.0"
   s.source       = { :git => "https://github.com/facephi/phingers-widget-framework.git", :tag => "#{s.version}" }
 
-  s.vendored_frameworks = 'Frameworks/*.xcframework'
-
   s.requires_arc      = true
   s.static_framework  = true
 
@@ -39,6 +37,6 @@ Pod::Spec.new do |s|
     'OTHER_LDFLAGS' => '-lObjC'
   }
 
-  s.dependency "FPhiPhingersCoreiOS", "~> 1.0.2"
+  s.dependency "OnyxCamera"
 
 end
