@@ -27,6 +27,7 @@ Pod::Spec.new do |s|
 
   s.requires_arc      = true
   s.static_framework  = true
+  s.vendored_frameworks = 'Frameworks/*.framework'
 
   s.xcconfig = {
     'FRAMEWORK_SEARCH_PATHS' => '$(inherited)'
