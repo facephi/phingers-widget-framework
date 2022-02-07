@@ -38,6 +38,6 @@ Pod::Spec.new do |s|
     'OTHER_LDFLAGS' => '-lObjC'
   }
 
-  s.dependency "FPhiPhingersCoreiOS"
+  s.dependency "OnyxCamera", "7.1.10"
 
 end
